@@ -21,15 +21,17 @@ html {
 body {
     font-size: 18px;
     font-family: 'Josefin Sans', sans-serif;
-    background-color: hsl(204, 43%, 93%);
+    
+    background-color: hsl(235, 21%, 11%);
 
 }
 
-header {
+main {
     width: 100%;
-    height: 300px;
+    height: 350px;
     background-image: url(./images/bg-mobile-dark.jpg);
     background-repeat: no-repeat;
+    background-size: 120%;
 }
 
 .todo h1 {
@@ -38,21 +40,76 @@ header {
     padding-left: 25px;
     font-weight: 400;
     font-size: 1.8rem;
-    
 }
 
 .todo img {
     display: block;
     padding-left: 325px;
-    margin-top: -30px;
-
+    margin-top: -33px;
 }
 
-main {
-    display: grid;
-    grid-template-columns: 420px;
-    grid-template-rows: repeat(7, 40px) 30px;
+.first-box {
+    width: 330px;
+    height: 75px;
+    background-color: hsl(235, 24%, 19%);
+    margin-left: 22.5px;
+    margin-top: 63px;
+    padding: 34px 0px 0px 60px;
+    border-radius: 10px;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 400;
 }
+
+.bullet-point {
+    display: block;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 1.5px solid white;
+    margin: -18px 0px 0px -40px;
+    
+}
+
+.big-box {
+    width: 330px;
+    height: 450px;
+    background-color: hsl(235, 24%, 19%);
+    margin-left: 22.5px;
+    margin-top: 20px;
+    padding: 34px 0px 0px 60px;
+    border-radius: 10px;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.big-box p {
+    padding-bottom: 55px;
+}
+
+.bullet-point2 {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 1.5px solid white;
+    margin: -18px 0px 0px -40px;
+    
+}
+
+
+
+
+
+
+
+
+/* Farbe Boxen*/
+/* hsl(235, 24%, 19%) box farbe */
+
+/* 
+Farbe Hintergrund
+hsl(235, 21%, 11%) */
 
 
 
