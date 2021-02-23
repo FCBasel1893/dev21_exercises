@@ -82,18 +82,23 @@ main {
     color: white;
     font-size: 0.8rem;
     font-weight: 400;
+    
 }
 
 .big-box p {
     padding-bottom: 55px;
+    
+    border-bottom: 1px solid white;
 }
 
 .bullet-point2 {
+    display: block;
     width: 22px;
     height: 22px;
     border-radius: 50%;
     border: 1.5px solid white;
     margin: -18px 0px 0px -40px;
+    
     
 }
 
