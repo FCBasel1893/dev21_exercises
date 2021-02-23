@@ -32,14 +32,26 @@ header {
     background-repeat: no-repeat;
 }
 
-.todo {
+.todo h1 {
     color: white;
     padding-top: 50px;
     padding-left: 25px;
     font-weight: 400;
     font-size: 1.8rem;
     
-    
+}
+
+.todo img {
+    display: block;
+    padding-left: 325px;
+    margin-top: -30px;
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: 420px;
+    grid-template-rows: repeat(7, 40px) 30px;
 }
 
 
