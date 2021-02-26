@@ -19,13 +19,40 @@ html {
 }
 
 body {
-    font-size: 18px;
+    font-size: 1.2rem;
     font-family: 'Josefin Sans', sans-serif;
-    background-color: hsl(235, 21%, 11%);
-    color: hsl(234, 11%, 52%);
+    background-color: hsl(236, 33%, 92%);
+    color: hsl(235, 19%, 35%);
 
 }
 
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    /* width: 100%; */
+    font-size: 1.0rem;
+    font-weight: 200;
+    letter-spacing: .7rem;
+    color: white;
+    position: absolute;
+    display: flex;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin: 3rem 1rem 0rem 1rem;
+}
+
+.title img {
+    width: 23px;
+    height: 23px;
+    margin-left: 9rem;
+    
+    
+
+}
 
 
 
