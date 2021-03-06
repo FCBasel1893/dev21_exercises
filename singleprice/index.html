@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
@@ -9,9 +9,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
 
-
-  <link rel="stylesheet" href="./styles/styles.css"
-  >
+  <link rel="stylesheet" href="main.css">
+  
   <title>Frontend Mentor | Single Price Grid Component</title>
 
 
@@ -20,93 +19,51 @@
 
 <body>
 
-  <main class="container">
+  <main class="wrapper">
 
-    <div class="container__text">
+    <div class="single-price">
+      <div class="single-price__join">
 
-      <h1 class="container__text-title">
-      Join our community</h1>
-        
-      <p><strong>30-day, hassle-free money back guarantee</strong></p>
-        
-      <p>Gain access to our full library of tutorials along with expert code reviews. 
-        Perfect for any developers who are serious about honing their skills.
-      </p>
-    </div>
-
-
-    <div class=container2>
-
-      <div class="container2__text">
-
-        <p class="container2__text-title">
-        Monthly Subscription</p>
-      
-        <div class="money">&dollar; 29</div>
-  
-        <p> per month</p>
-      
-        <p>Full access for less than &dollar;1 a day</p>
-  
-        <button id="bt">Sign Up</button>
+          <h1 class="single-price__title">
+          Join our community</h1>
+            
+          <h2 class="single-price__undertitle">30-day, hassle-free money back guarantee</h2>
+            
+          <p class="single-price__text">
+            Gain access to our full library of tutorials along with expert code reviews. 
+            Perfect for any developers who are serious about honing their skills.
+          </p>
       </div>
-    </div>
+        
 
+      <div class="single-price__monthly">
 
-    </div class="container3">
+          <h2 class="single-price__monthly-title">Monthly Subscription</h2>
+          <div class="single-price__monthly-money">&dollar;29
+            <p class="single-price__monthly-mounth"> per month</p>
+          </div>
+          <p class="single-price__monthly-access">Full access for less than &dollar;1 a day</p>
+          <button class="single-price__monthly-btn">Sign Up</button>
 
-      <div clsss="container3_text">
-
-        <p class="container3_text-title">
-          Why Us</p>
-
-        <p class="text">Tutorials by industry experts
-        Peer &amp; expert code review<br>
-        Coding exercisesbr>
-        Access to our GitHub reposbr>
-        Community forum<br>
-        Flashcard decks<br>
-        New videos every week</p>
       </div>
 
-    <div>
 
+      <div class="single-price__why">
 
+          <h2 class="single-price__why-title">Why Us</h2>
 
+          <ul class="single-price__why-list">
+            <li>Tutorials by industry experts</li>  
+            <li>Peer &amp; expert code review</li>
+            <li>Coding exercises</li>
+            <li>Access to our GitHub repos</li>
+            <li>Community forum</li>
+            <li>Flashcard decks</li>
+            <li>New videos every week</li>          
+          </ul>
+      </div>
+    </div>
   </main>
 
-        
-
-
-
-
-
-
-
-
-  </main>
-
-
-
-
-
-
-  <aside class="box-right" >
-    
-
-
-
-
-
-  </aside>
-
-
-  
-
-
-
-  
-  
- 
 </body>
 </html>

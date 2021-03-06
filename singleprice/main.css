@@ -1,0 +1,158 @@
+/*Basics*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1rem;
+  font-family: "Karla", sans-serif;
+  background-color: #e5eff5;
+}
+
+/* Titles */
+/*Media*/
+/*Partials*/
+.wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #e5eff5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.single-price {
+  display: grid;
+  grid-template-columns: 330px;
+  grid-template-rows: repeat 3, 400px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+@media screen and (min-width: 1440px) {
+  .single-price {
+    grid-templates-columns: 800px;
+  }
+}
+.single-price__join {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  padding: 25px 20px 30px 20px;
+}
+@media screen and (min-width: 1440px) {
+  .single-price__join {
+    width: 100%;
+  }
+}
+.single-price__title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #2ab2af;
+  margin-bottom: 15px;
+}
+.single-price__undertitle {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #c0df34;
+  margin-bottom: 15px;
+}
+.single-price__text {
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 160%;
+  color: #98a6bd;
+  margin-bottom: 5px;
+}
+
+.single-price__monthly {
+  width: 100%;
+  height: 100%;
+  background-color: #2ab2af;
+  padding: 25px 20px 30px 20px;
+}
+.single-price__monthly-title {
+  font-size: 1.3rem;
+  color: white;
+  margin-bottom: 20px;
+}
+.single-price__monthly-money {
+  font-size: 2.2rem;
+  color: white;
+  margin-bottom: 5px;
+  display: flex;
+}
+.single-price__monthly-mounth {
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 1rem;
+  color: #66dbd9;
+  margin-bottom: 15px;
+}
+.single-price__monthly-access {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+  color: #8fe5e3;
+  margin-bottom: 30px;
+}
+.single-price__monthly-btn {
+  width: 290px;
+  height: 50px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: white;
+  background-color: #c0df34;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px gray;
+}
+.single-price__monthly-btn:hover {
+  background-color: #305b78;
+  box-shadow: 5px 5px 10px black;
+  transform: rotate(360deg);
+  transition: all 2000ms;
+}
+.single-price__monthly-btn:active {
+  border: 0;
+  color: black;
+  background-color: #66dbd9;
+  box-shadow: 5px 5px 10px black;
+}
+
+.single-price__why {
+  width: 100%;
+  height: 100%;
+  background-color: #3dd1cf;
+  padding: 25px 20px 30px 20px;
+}
+.single-price__why-title {
+  font-size: 1.3rem;
+  color: white;
+  margin-bottom: 20px;
+}
+.single-price__why-list {
+  font-size: 1rem;
+  line-height: 140%;
+  list-style: none;
+  color: #8fe5e3;
+}
+
+/*# sourceMappingURL=main.css.map */

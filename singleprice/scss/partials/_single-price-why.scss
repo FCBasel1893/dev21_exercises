@@ -1,0 +1,25 @@
+.single-price__why {
+    width: 100%;
+    height: 100%;
+    background-color: lighten($primary-color-cyan, 10%);
+    padding: 25px 20px 30px 20px;
+    
+    
+
+    &-title {
+        font-size: $font-title;
+        color: $neutral-color-white;
+        margin-bottom: 20px;
+        
+    }
+
+    &-list {
+        font-size: $font-undertitle;
+        line-height: 140%;
+        list-style: none;
+        color: lighten($primary-color-cyan, 30%);
+    
+    }
+
+}
+

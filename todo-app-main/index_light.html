@@ -8,26 +8,48 @@
   
   <title>Frontend Mentor | Todo app</title>
 
-	<link rel="stylesheet" href="styles_light.css">
+	<link rel="stylesheet" href="main.css">
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 
 </head>
 <body>
 
     <header>
         <picture>
-            <source media="(min-width:375px)" srcset="./images/bg-mobile-light.jpg">
+            <source media="(min-width:375px)" srcset="./images/bg-mobile-light.jpg" ;>
             <source media="(min-width:1440px)" srcset="./images/bg-desktop-light.jpg">
                 <img src="./images/bg-mobile-light.jpg" alt="mountain" style="width:auto;">
         </picture>
         
-        <div class="title">
-            <h1>TODO</h1>
-            <img src="./images/icon-moon.svg" alt="Picture Moon">
+        <div class="head">
+            <h1 class="head__h1">TODO</h1>
+            <img class="head__img" src="./images/icon-moon.svg" alt="Picture Moon">
+          </div>
+      </header>
+
+      <main>
+        <div class="list">
+          <div class="list__circle"></div>
+          <h3 class="list__text">Create a new todo ...</h3>
         </div>
-    </header>
+
+        <div class="list2">
+          <ul class="list__text2">
+            <div class="list__circle2">
+              <li>Complete online JavaScript course</li>
+              <img src="/images/icon-cross.svg" alt="Bild X">
+            </div>
+
+            <!-- <li>Jog around the park 3x</li>
+            <li>10 minutesx meditation</li>
+            <li>Read for 1 hour</li>
+            <li>Pick up groceries</li>
+            <li>Complete Todo App on Frontend Mentor</li> -->
+          </ul>
+        </div>
+      </main>
 
   
 
