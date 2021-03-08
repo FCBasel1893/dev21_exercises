@@ -1,0 +1,21 @@
+.profile-card__footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 23px;
+    
+    &-followers {
+        font-size: $copy;
+        letter-spacing: 0.1rem;
+        color: $color-dark-gray;
+        text-align: center;
+    }
+
+    &-title {
+        font-size: $title;
+        text-align: center;
+        color: black;
+        margin-bottom: 8px;
+    }
+}
+

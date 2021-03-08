@@ -1,0 +1,94 @@
+/*Basics*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1rem;
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: #19a2ae;
+  background-image: url("/assets/images/bg-pattern-top.svg"), url("/assets/images/bg-pattern-bottom.svg");
+  background-position-x: -230px, 730px;
+  background-position-y: -440px, 550px;
+  background-repeat: no-repeat;
+}
+
+/*Media*/
+/*Partials*/
+.profile-card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.profile-card__header {
+  width: 350px;
+  height: 400px;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.profile-card__portrait {
+  margin-top: -55px;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin-left: 115px;
+}
+.profile-card__title {
+  margin-top: 30px;
+  text-align: center;
+}
+.profile-card__title h1 {
+  font-size: 1.3rem;
+}
+.profile-card__title span {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #969696;
+  padding-left: 10px;
+}
+.profile-card__title p {
+  margin-top: 12px;
+  padding-bottom: 35px;
+  color: #969696;
+  border-bottom: 0.5px solid #969696;
+}
+
+.profile-card__footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 23px;
+}
+.profile-card__footer-followers {
+  font-size: 0.7rem;
+  letter-spacing: 0.1rem;
+  color: #969696;
+  text-align: center;
+}
+.profile-card__footer-title {
+  font-size: 1.3rem;
+  text-align: center;
+  color: black;
+  margin-bottom: 8px;
+}
+
+/*# sourceMappingURL=main.css.map */
