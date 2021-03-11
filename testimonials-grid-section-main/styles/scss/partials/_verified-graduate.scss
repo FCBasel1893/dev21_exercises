@@ -1,20 +1,42 @@
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(4, 25%);
-    grid-template-rows: repeat(2, 500px);
-    grid-gap: 40px;
-    padding: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+    @include media ('desktop') {
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+        grid-template-rows: repeat(2, 500px);
+        grid-gap: 40px; 
+        margin: 150px;
+    }
 
     &__graduate {
-        grid-column: 1/3;
-        width: 100%;
-        height: 100%;
+        grid-column: 1/2;
+        height: 450px;
         background-color: $color-violet;
         border-radius: 15px;
         background-image: url("/assets/images/bg-pattern-quotation.svg");
         background-repeat: no-repeat;
-        background-position-x: 450px;
-        background-size: 200px;
-    }
+        background-position-x: 150px;
+        background-size: 100px;
+        margin: 50px;
+        padding: 30px;
 
+        @include media ('desktop') {
+        grid-column: 1/3;
+         width: 100%;
+         height: 100%;
+         background-position-x: 350px;
+         background-size: 150px;
+        }
+    
+
+    &__name {
+        padding-top: 20px;
+
+    }
+}
 }
