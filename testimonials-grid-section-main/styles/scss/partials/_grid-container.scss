@@ -1,0 +1,16 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(2, 500px);
+    grid-gap: 40px;
+    padding: 200px;
+
+    &__graduate {
+        grid-column: 1/3;
+        width: 100%;
+        height: 100%;
+        background-color: $color-violet;
+        border-radius: 15px;
+    }
+
+}

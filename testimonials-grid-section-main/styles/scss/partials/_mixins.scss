@@ -1,0 +1,13 @@
+@mixin media ($device) {
+
+    @if $device == 'mobile' {
+        @media screen and (min-width: 375px) {
+            @content
+        };
+    }; 
+    @if $device == 'desktop' { 
+        @media screen and (min-width: 1440px) {
+            @content  
+        };
+     };   
+ };

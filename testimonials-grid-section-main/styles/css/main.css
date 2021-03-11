@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 13.5px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background-color: #cfcfcf;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(2, 500px);
+  grid-gap: 40px;
+  padding: 200px;
+}
+.grid-container__graduate {
+  grid-column: 1/3;
+  width: 100%;
+  height: 100%;
+  background-color: #7541c8;
+  border-radius: 15px;
+  background-image: url("/assets/images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position-x: 450px;
+  background-size: 200px;
+}
+
+/*# sourceMappingURL=main.css.map */

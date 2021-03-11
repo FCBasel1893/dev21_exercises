@@ -17,3 +17,10 @@ html {
 *::before {
     box-sizing: inherit;
 }
+
+body {
+    font-size: 13.5px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: $color-neutral-light-gray;
+
+}

@@ -1,15 +1,17 @@
 /*Basics*/
-@import "base";
-@import "typo";
-@import "reset";
-@import "colors";
+
+@import "partials/reset";
+@import "partials/colors";
+
+// Medias
+
+@import "partials/mixins";
+
 
 // partials
 @import "partials/todo-list";
 @import "partials/todo-input";
 
-// main
-@import "main";
 
 
 

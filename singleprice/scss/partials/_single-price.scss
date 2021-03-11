@@ -2,14 +2,13 @@
     
     display: grid;
     grid-template-columns: 330px;
-    
     border-radius: 10px;
     overflow: hidden;
 
     @include media ('desktop') {
-        width: 660px;
         display: flex;
         flex-direction: column;
+        width: 660px;
     
     }
     
@@ -51,5 +50,3 @@
     }
     
 }
-
-
