@@ -1,0 +1,69 @@
+.grid-container__graduate3 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        height: 250px;
+        background-color: $color-white;
+        border-radius: 15px;
+        margin: 40px 25px 25px 25px;
+        padding: 37px 37px 0px 37px;
+
+        @include media ('desktop') {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        width: 100%;
+        height: 400px;
+        margin: 0px 25px 25px 25px;
+        }
+
+        &-jeanette img {
+            width: 35px;
+            height: 35px;
+            position: absolute;
+            border-radius: 50%; 
+            border: 3px solid lighten($color-black, 10);
+            
+            }
+
+    
+        h1 {
+            color: $color-black;
+            margin-left: 50px;
+
+        @include media ('desktop') {
+            font-size: 1.1rem;
+            }
+        } 
+
+        h2 {
+            color: lighten($color-black, 20);
+            margin-left: 50px;
+
+        @include media ('desktop') {
+                font-size: 0.9rem;
+                margin-bottom: 28px;
+                }    
+        }
+        
+        h3 {
+            color: $color-black;
+
+        @include media ('desktop') {
+            font-size: 1.5rem;
+            line-height: 2rem;
+            margin-bottom: 28px;
+            }      
+        }
+        
+        p {
+            color: lighten($color-black, 20);
+
+        @include media ('desktop') {
+            font-size: 1rem;
+            line-height: 1.5rem;
+            }    
+
+    }    
+
+}        
+        
+     
