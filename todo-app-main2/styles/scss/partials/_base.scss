@@ -52,10 +52,17 @@ li {
     justify-content: space-evenly;
 
 
-    width: 23px;
-    height: 23px;
+    width: 18px;
+    height: 18px;
 
-    margin-top: -2.2rem;
-    margin-left: 31rem;
+    margin-top: -1.8rem;
+    margin-left: 17rem;
+
+    @include media ('desktop') {
+        width: 23px;
+        height: 23px;
+
+        margin-left: 31rem;
+    }
 }
 
