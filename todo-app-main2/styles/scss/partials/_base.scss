@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+
+    height: 100%;
+
+   
+}
+
+*,*::before, *::after  {
+    box-sizing: inherit;
+}
+
+body {
+
+    margin: 0 auto;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+
+    background-color:hsl(235, 21%, 11%);
+}
+
+h1 {
+    font-size: 2.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    color: #FFF;
+
+    @include media ('desktop') {
+        font-size: 3rem;
+    }
+    
+}
+
+li {
+    list-style: none;
+    padding-left: 2rem;
+    margin-top: -0.6rem;
+}
+

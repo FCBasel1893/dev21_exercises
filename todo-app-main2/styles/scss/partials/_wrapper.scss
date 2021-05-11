@@ -1,0 +1,62 @@
+.wrapper {
+    
+
+    &__items {
+
+        width: 90vw;
+        height: 80px;
+        border-radius: 0px 0px 8px 8px;
+
+        margin: 0 auto;
+
+        padding-top: 2.5rem;
+
+        background-color: $bg-main-wrapper;
+
+        display: flex;
+        justify-content: space-around;
+
+
+        @include media ('desktop') {
+            width: 40%;  
+             
+            }
+
+    }
+
+    
+    &__check {
+        opacity: 1; //ein-/ausblenden Checkfeld
+        }
+      
+    &__box {
+        width: 60vw;
+        height: 60%;
+        border: 0;
+        background: none;
+
+        font-size: 1.2rem;
+        font-family: 'Josefin Sans', sans-serif;
+        color: $copy-item;
+
+        margin-left: 1.4rem;
+        margin-top: -1.2rem;
+
+
+        @include media ('desktop') {
+            width: 30vw;
+            margin-left: 1rem;
+
+            font-size: 1.5rem;
+        }
+        }
+        
+    }    
+
+
+#checkbox2:checked + input {
+    text-decoration: line-through;
+    
+    } 
+
+  

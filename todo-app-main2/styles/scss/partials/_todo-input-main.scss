@@ -1,0 +1,56 @@
+.todo-input2 {
+
+
+    &__status {
+        width: 90vw;
+        height: 80px;
+        border-radius: 0.5rem;
+
+        margin: 0 auto;
+
+        padding-top: 1.3rem;
+        padding-left: 2rem;
+
+        margin-bottom: 1rem;
+
+        background-color: $bg-main-wrapper;
+        
+
+        @include media ('desktop') {
+            width: 40%;  
+             
+            }
+
+    }
+
+    
+    &__check {
+        opacity: 1; //ein-/ausblenden Checkfeld
+        }
+      
+    &__list {
+        width: 60vw;
+        height: 60%;
+        border: 0;
+        background: none;
+
+        font-size: 1.2rem;
+        font-family: 'Josefin Sans', sans-serif;
+        color: $copy-item;
+
+        margin-left: 2rem;
+
+
+        @include media ('desktop') {
+            width: 30vw;
+            margin-left: 1rem;
+
+            font-size: 1.5rem;
+        }
+        }
+    }    
+
+
+#checkbox1:checked + input {
+    text-decoration: line-through;
+    } 
