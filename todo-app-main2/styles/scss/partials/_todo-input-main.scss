@@ -15,9 +15,12 @@
 
         background-color: $bg-main-wrapper;
         
+        font-size: 1rem;
 
         @include media ('desktop') {
             width: 40%;  
+
+            font-size: 1.3rem;
              
             }
 
@@ -36,16 +39,18 @@
 
         padding-left: 0.5rem;
 
-        font-size: 1rem;
+        font-size: 1.2rem;
         font-family: 'Josefin Sans', sans-serif;
         color: $copy-item;
+
+        
 
 
         @include media ('desktop') {
             width: 30vw;
             margin-left: 0.5rem;
 
-            font-size: 1.5rem;
+            font-size: 1.3rem;
         }
         }
     }    
