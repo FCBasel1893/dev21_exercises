@@ -19,8 +19,16 @@
 
         @include media ('desktop') {
             width: 40%;  
-             
             }
+
+    li {
+        list-style: none;
+        text-decoration: none;
+        padding-left: 1.5rem;
+        margin-top: -0.6rem;
+
+        font-size: 1.2rem;
+        }
 
     }
 

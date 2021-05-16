@@ -9,9 +9,9 @@
 
         margin: 0 auto;
 
-        padding-top: 2.5rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding-top: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
 
         background-color: $bg-main-wrapper;
 
@@ -21,6 +21,7 @@
         li {
             color: $copy-item;
             list-style-type: none;
+            text-decoration: none;
         }
 
         li:hover {
@@ -29,6 +30,7 @@
 
 
         @include media ('desktop') {
+            display: none;
             width: 40%;  
              
             }
@@ -44,7 +46,7 @@
         margin: 0 auto;
         margin-top: 2rem;
 
-        padding-top: 2.5rem;
+        padding-top: 2rem;
         padding-left: 8rem;
         padding-right: 8rem;
 
@@ -57,6 +59,7 @@
 
         li {
             color: $copy-item;
+            text-decoration: none;
             list-style-type: none;
 
             font-size: 1.5rem;
@@ -68,11 +71,48 @@
 
 
         @include media ('desktop') {
-            width: 40%;  
-             
+            width: 40%; 
+            display: none;
+            }
+        }        
+
+
+    &__desktop {
+
+        display: none;
+
+
+        @include media ('desktop') {
+            width: 40vw;
+            height: 80px;
+            border-radius: 8px 8px 8px 8px;
+
+            margin: 0 auto;
+
+            padding-top: 2rem;
+            padding-left: 2rem;
+            padding-right: 2rem;
+
+            background-color: $bg-main-wrapper;
+
+            display: flex;
+            justify-content: space-between;
+
+        li {
+            color: $copy-item;
+            text-decoration: none;
+            list-style-type: none;
+
+            font-size: 0.9rem;
             }
 
-    }
+        li:hover {
+            color:blue;
+            } 
+        } 
+       
+
+}
 
     
     &__check {
@@ -109,4 +149,7 @@
     
     } 
 
+
+
+    
   
