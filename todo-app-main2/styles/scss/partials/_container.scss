@@ -19,6 +19,34 @@
         @include media ('desktop') {
             width: 40%;  
             }
+}
+
+    label {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: none;
+        border: 2px solid #ccc;
+        position: absolute;
+        margin-left: -0.7rem;
+        margin-top: -0.4rem;
+        }         
+
+    label:after {
+        border: 3px solid $check-bg;
+        content: url("../../../assets/images/icon-check.svg");
+        padding-left: 0.5rem;
+        transform: rotate(-45deg);
+        } 
+
+    input[type="checkbox"] { //ein-/ausblenden Checkfeld 
+        visibility: hidden;
+        }
+
+    input[type="checkbox"]:checked + label {
+        background-color: #66bb6a;
+        border-color: $check-bg;
+        }             
 
     li {
         list-style: none;
@@ -31,15 +59,10 @@
         @include media ('desktop') {
             // padding-left: 2.5rem;
         }
-        }
-
     }
 
-    
-    &__check {
-        opacity: 1; //ein-/ausblenden Checkfeld
-        }
-      
+
+
     &__box {
         width: 80vw;
         height: 60%;
@@ -85,6 +108,7 @@
 
 #checkbox2:checked + input {
     text-decoration: line-through;
+    color: red;
     
     } 
 
