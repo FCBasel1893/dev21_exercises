@@ -38,23 +38,3 @@ h1 {
     
 }
 
-
-.container__clear {
-
-    width: 90%;
-    display: flex;
-
-    width: 18px;
-    height: 18px;
-
-    margin-top: -1.8rem;
-    margin-left: 17rem;
-
-    @include media ('desktop') {
-        width: 23px;
-        height: 23px;
-
-        margin-left: 31rem;
-    }
-}
-

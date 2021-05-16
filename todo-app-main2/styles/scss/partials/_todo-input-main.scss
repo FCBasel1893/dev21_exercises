@@ -1,6 +1,5 @@
 .todo-input2 {
 
-
     &__status {
         width: 90vw;
         height: 80px;
@@ -8,22 +7,16 @@
 
         margin: 0 auto;
 
-        padding-top: 1.3rem;
-        padding-left: 1.5rem;
-
-        margin-bottom: 1rem;
+        padding: 1.5rem 0rem 0rem 2.5rem;
 
         background-color: $bg-main-wrapper;
         
-        font-size: 1rem;
 
         @include media ('desktop') {
             width: 40%;  
 
             font-size: 1.3rem;
-             
             }
-
     }
 
     
@@ -44,8 +37,6 @@
         color: $copy-item;
 
         
-
-
         @include media ('desktop') {
             width: 30vw;
             margin-left: 0.5rem;

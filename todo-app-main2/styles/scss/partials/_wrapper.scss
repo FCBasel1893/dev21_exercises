@@ -89,10 +89,8 @@
 
             margin: 0 auto;
 
-            padding-top: 2rem;
-            padding-left: 2rem;
-            padding-right: 2rem;
-
+            padding: 2rem;
+            
             background-color: $bg-main-wrapper;
 
             display: flex;
@@ -109,9 +107,17 @@
         li:hover {
             color:blue;
             } 
-        } 
-       
+    }
 
+        &__left {
+        font-size: 2rem;
+        }
+
+    &__center {
+        font-size: 3rem;
+        text-align: center;
+        padding-left: 2rem;
+        }
 }
 
     
