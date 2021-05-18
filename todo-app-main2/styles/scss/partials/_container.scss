@@ -25,8 +25,8 @@
         width: 30px;
         height: 30px;
         border-radius: 50%;
-        background-color: none;
-        border: 2px solid #ccc;
+        background: linear-gradient(135deg,hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+        border: 2px solid hsl(192, 100%, 67%),;
         position: absolute;
         margin-left: -0.7rem;
         margin-top: -0.4rem;
