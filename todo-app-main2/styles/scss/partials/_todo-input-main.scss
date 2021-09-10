@@ -10,6 +10,7 @@
         padding: 1.5rem 0rem 0rem 2.5rem;
 
         background-color: $bg-main-wrapper;
+        color: $copy-hover;
         
 
     @include media ('desktop') {
@@ -46,6 +47,7 @@
     input [type="checkbox"]:checked + label {
         background-color: #66bb6a;
         border-color: $check-bg;
+        
         }
     }
 
@@ -58,19 +60,27 @@
 
         padding-left: 0.4rem;
 
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         font-family: 'Josefin Sans', sans-serif;
-        color: $copy-item;
 
         
         @include media ('desktop') {
             width: 30vw;
             margin-left: 0.5rem;
 
-            font-size: 1.3rem;
+            font-size: 1.4rem;
+
+            
         }
     }
 }    
+
+
+// Version light -> Schrift im Imput-Feld
+.light .todo-input2__list {
+    color: hsl(235, 21%, 11%);
+}
+//////////////////////////////////////////
 
 
 
@@ -88,3 +98,13 @@
     #checkbox1:checked + input {
         text-decoration: line-through;
         } 
+
+
+
+
+/// Version light --> Hintergrund-Farbe Input-Feld
+    .light .todo-input2__status {
+        background-color: #FFF;
+    }
+
+/////////////////////////////////////

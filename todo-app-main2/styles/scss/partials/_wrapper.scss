@@ -50,7 +50,6 @@
         padding-left: 8rem;
         padding-right: 8rem;
 
-        
 
         background-color: $bg-main-wrapper;
 
@@ -85,7 +84,7 @@
         @include media ('desktop') {
             width: 40vw;
             height: 80px;
-            border-radius: 8px 8px 8px 8px;
+            border-radius: 0px 0px 8px 8px;
 
             margin: 0 auto;
 
@@ -157,5 +156,21 @@
 
 
 
+/// Version light - Desktop
+
+.light .wrapper__desktop {
+    background-color: #FFF;
+}
+
+
+
+//// Version light - mobile
+.light .wrapper__all {
+    background-color: #FFF;
+}
+
+.light .wrapper__items {
+    background-color: #FFF;
+}
     
   

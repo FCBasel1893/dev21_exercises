@@ -1,7 +1,5 @@
 .todo-input {
-
-    background-image: url("/assets/images/bg-mobile-dark.jpg");
-    background-repeat: no-repeat;
+    background-image: url("./assets/images/bg-mobile-dark.jpg") no-repeat;
     background-size: cover;
     
     width: 100%;
@@ -10,11 +8,10 @@
     margin-bottom: -2rem;
     
     @include media ('desktop') {
-        background-image: url("/assets/images/bg-desktop-dark.jpg");
-        background-repeat: no-repeat;
+        background-image: url("/assets/images/bg-desktop-dark.jpg") no-repeat;
+        ;
         }
     
-
     &__header {
         width: 85%;
 
@@ -26,6 +23,9 @@
         display: flex;
         justify-content: space-between;
 
+
+
+
         @include media ('desktop') {
             width: 40%;
 
@@ -33,10 +33,28 @@
             }
     }
 
+
     &__sun {
         width: 25px;
         height: 25px;
 
         margin-top: -0.3rem;
         }
+
 }
+
+    //light Version // Bilder ausgewechselt
+.light .todo-input {
+
+    background-image: url("//assets/images/bg-mobile-light.jpg") no-repeat;
+    background-size: cover;
+
+    
+    @include media ('desktop') {
+        background-image: url("/assets/images/bg-desktop-light.jpg") no-repeat;
+        }
+    }
+    
+    //////////////////////////////////
+
+    
