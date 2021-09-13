@@ -1,0 +1,59 @@
+.social-card {
+    width: 100%;
+    height: 75%;
+
+    @include media ('desktop') {
+        height: 45%;
+
+        display: flex;
+        flex-direction: row;
+
+        margin-left: 5.5rem;
+        }
+
+
+    &__head {
+        display: flex;
+        flex-direction: column;
+
+        @include media ('desktop') {
+            width: 55%;
+            }
+
+    &-title {
+        width: 100%;
+
+        font-size: $title;
+        text-align: center;
+        line-height: 105%;
+
+        color: $main-color;
+
+        margin-top: 5rem;
+        padding-bottom: 2rem;
+
+        @include media ('desktop') {
+            width: 65%;
+            font-size: $title-desktop;
+            text-align: left;
+
+            
+            }
+
+    }
+
+    &-copy {
+        font-size:$head-copy;
+        text-align: center;
+        line-height: 170%;
+        color: $wrapper;
+
+        padding-bottom: 2rem;
+
+        @include media ('desktop') {
+            width: 75%;
+            text-align: left;
+            }
+        }    
+    }
+}
